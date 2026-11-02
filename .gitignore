@@ -1,0 +1,10 @@
+.env
+data/
+__pycache__/
+*.pyc
+.venv/
+frozen.txt
+*.tar
+.taste-skill/
+dentalclin-original.html
+assets/*.jpg

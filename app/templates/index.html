@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DentalClin | Implantes dentários em Vitória, ES</title>
+<meta name="description" content="Implantes dentários e reabilitação oral e estética em Vitória (Enseada do Suá), ES. Agende sua avaliação pelo WhatsApp.">
+<meta name="theme-color" content="#0d1f26">
+<link rel="preload" href="/static/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="/static/img/monograma.webp" type="image/webp">
+<link rel="stylesheet" href="/static/style.css">
+<script src="/static/app.js"></script>
+</head>
+<body data-wa="{{wa_base}}">
+
+<header class="bar">
+  <a class="bar__brand" href="#topo" aria-label="DentalClin, início">
+    <img src="/static/img/monograma.webp" alt="" width="40" height="34">
+    <span>DentalClin</span>
+  </a>
+  <nav class="bar__nav" aria-label="Principal">
+    <a href="#ponte">Por que implante</a>
+    <a href="#como">Como funciona</a>
+    <a href="#tratamentos">Tratamentos</a>
+    <a href="#duvidas">Dúvidas</a>
+  </nav>
+  <a class="btn btn--sm" href="{{wa:agendar}}" target="_blank" rel="noopener">Agendar avaliação</a>
+</header>
+
+<main id="topo">
+
+  <!-- 1. Hero -->
+  <section class="hero" aria-labelledby="h-hero">
+    <div class="hero__text">
+      <h1 id="h-hero" class="hero__title">
+        <span class="mask"><span class="mask__line">Implantes dentários</span></span>
+        <span class="mask"><span class="mask__line">em Vitória</span></span>
+      </h1>
+      <p class="hero__lead rise">Recupere função, estética e saúde do seu sorriso, com planejamento digital e acompanhamento do início ao fim.</p>
+      <div class="hero__actions rise">
+        <a class="btn" href="{{wa:agendar}}" target="_blank" rel="noopener">Agendar avaliação</a>
+        <p class="hero__note">Atendimento 24 horas pelo WhatsApp</p>
+      </div>
+    </div>
+
+    <div class="plinth" aria-hidden="true">
+      <svg class="implant" viewBox="0 0 200 360" width="200" height="360" focusable="false">
+        <!-- crown -->
+        <g class="implant__crown">
+          <path d="M42 28c0-14 14-22 30-22 10 0 16 4 28 4s18-4 28-4c16 0 30 8 30 22 0 40-10 74-22 96H64C52 102 42 68 42 28z" fill="#e9eff1"/>
+        </g>
+        <!-- abutment -->
+        <g class="implant__abutment">
+          <path d="M72 124h56l-6 38H78z" fill="#aeb9be"/>
+        </g>
+        <!-- fixture screw -->
+        <g class="implant__screw">
+          <path d="M80 168h40v14H80zM76 188h48v12H76zM80 206h40v12H80zM84 224h32v12H84zM88 242h24v12H88zM92 260h16v12h-16zM96 278h8l-4 22z" fill="#aeb9be"/>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <!-- 2. Por que implante: a ponte -->
+  <section class="ponte" id="ponte" aria-labelledby="h-ponte">
+    <figure class="ponte__pic reveal">
+      <img src="/static/img/pilares-600.webp" srcset="/static/img/pilares-600.webp 600w, /static/img/pilares-900.webp 900w"
+           sizes="(min-width: 900px) 36vw, 88vw" width="600" height="902" loading="lazy"
+           alt="Os pilares de concreto da Terceira Ponte, em Vitória, sustentando a pista sobre a baía">
+    </figure>
+    <div class="ponte__text">
+      <h2 id="h-ponte" class="h2 reveal">Toda ponte começa nos pilares.</h2>
+      <p class="statement reveal">A Terceira Ponte atravessa a baía de Vitória apoiada em bases firmes. Com o sorriso é igual: o implante repõe a raiz do dente perdido, e é sobre ele que a prótese se sustenta, para você mastigar, falar e sorrir com segurança.</p>
+      <a class="btn btn--dark reveal" href="{{wa:duvidas}}" target="_blank" rel="noopener">Tirar dúvidas no WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- 3. Como funciona -->
+  <section class="como" id="como" aria-labelledby="h-como">
+    <h2 id="h-como" class="como__title reveal">Do primeiro contato ao sorriso final</h2>
+    <ol class="steps">
+      <li class="step reveal">
+        <p class="step__line">Primeiro, avaliamos.</p>
+        <p class="step__text">Conversamos, examinamos e pedimos exames digitais para entender o seu caso.</p>
+      </li>
+      <li class="step reveal">
+        <p class="step__line">Depois, planejamos.</p>
+        <p class="step__text">Desenhamos o tratamento com precisão, antes de qualquer procedimento.</p>
+      </li>
+      <li class="step reveal">
+        <p class="step__line">Então, o implante.</p>
+        <p class="step__text">Colocação da peça que repõe a raiz, com acompanhamento próximo.</p>
+      </li>
+      <li class="step reveal">
+        <p class="step__line">Por fim, o sorriso.</p>
+        <p class="step__text">A prótese que devolve estética e função ao que foi perdido.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Faixa: Vitória -->
+  <figure class="band">
+    <img src="/static/img/camburi-1600.webp" width="1600" height="617" loading="lazy"
+         alt="A orla da Praia de Camburi, em Vitória, com a linha de prédios e o mar">
+    <figcaption class="band__cap reveal">Praia de Camburi, Vitória</figcaption>
+  </figure>
+
+  <!-- 4. Tratamentos -->
+  <section class="trat" id="tratamentos" aria-labelledby="h-trat">
+    <div class="trat__head">
+      <h2 id="h-trat" class="h2 reveal">Tratamentos que oferecemos</h2>
+      <p class="trat__lead reveal">Da triagem ao resultado final: tratamentos odontológicos, exames digitais e planejamento.</p>
+    </div>
+    <div class="sheets">
+      <article class="sheet sheet--1">
+        <img class="sheet__art" src="/static/img/monograma.webp" alt="" width="320" height="268" loading="lazy">
+        <div class="sheet__body">
+          <h3 class="sheet__title">Implantodontia</h3>
+        <p class="sheet__text">Reponha a perda parcial ou total dos dentes, restituindo função, estética e saúde do seu sorriso.</p>
+        </div>
+        <a class="btn btn--sm" href="{{wa:agendar}}" target="_blank" rel="noopener">Agendar avaliação</a>
+      </article>
+      <article class="sheet sheet--2">
+        <img class="sheet__art" src="/static/img/monograma.webp" alt="" width="320" height="268" loading="lazy">
+        <div class="sheet__body">
+          <h3 class="sheet__title">Prótese</h3>
+        <p class="sheet__text">Uma ótima alternativa para repor um ou mais dentes perdidos.</p>
+        </div>
+        <a class="btn btn--sm btn--dark" href="{{wa:tratamento}}" target="_blank" rel="noopener">Saber mais</a>
+      </article>
+      <article class="sheet sheet--3">
+        <img class="sheet__art" src="/static/img/monograma.webp" alt="" width="320" height="268" loading="lazy">
+        <div class="sheet__body">
+          <h3 class="sheet__title">Estética dental</h3>
+        <p class="sheet__text">Tratamentos restauradores com porcelanas e resinas.</p>
+        </div>
+        <a class="btn btn--sm btn--dark" href="{{wa:tratamento}}" target="_blank" rel="noopener">Saber mais</a>
+      </article>
+      <article class="sheet sheet--4">
+        <img class="sheet__art" src="/static/img/monograma.webp" alt="" width="320" height="268" loading="lazy">
+        <div class="sheet__body">
+          <h3 class="sheet__title">Cirurgia</h3>
+        <p class="sheet__text">Diagnóstico, tratamento e acompanhamento de dentes indicados para extração, como os sisos.</p>
+        </div>
+        <a class="btn btn--sm" href="{{wa:tratamento}}" target="_blank" rel="noopener">Saber mais</a>
+      </article>
+      <article class="sheet sheet--5">
+        <img class="sheet__art" src="/static/img/monograma.webp" alt="" width="320" height="268" loading="lazy">
+        <div class="sheet__body">
+          <h3 class="sheet__title">Clínico geral</h3>
+        <p class="sheet__text">Exames radiológicos com equipamentos tecnológicos de alta precisão.</p>
+        </div>
+        <a class="btn btn--sm btn--dark" href="{{wa:tratamento}}" target="_blank" rel="noopener">Saber mais</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- 5. A clínica -->
+  <section class="clinica" id="clinica" aria-labelledby="h-clinica">
+    <div class="clinica__panel">
+      <h2 id="h-clinica" class="clinica__title reveal">Reabilitação oral e estética</h2>
+      <div class="clinica__cols">
+        <div class="reveal">
+          <h3 class="h3">Cuidado de ponta a ponta</h3>
+          <p>Profissionais qualificados, excelência nos tratamentos e prioridade para o seu bem-estar, da triagem ao resultado final.</p>
+        </div>
+        <div class="reveal">
+          <h3 class="h3">Na Enseada do Suá</h3>
+          <p>Em Vitória, com atendimento pelo WhatsApp 24 horas. Registro EPAO 2902/ES.</p>
+        </div>
+        <a class="btn reveal" href="{{wa:contato}}" target="_blank" rel="noopener">Falar com a clínica</a>
+      </div>
+      <figure class="clinica__pic">
+        <img src="/static/img/ponte-noite-800.webp" srcset="/static/img/ponte-noite-800.webp 800w, /static/img/ponte-noite-1600.webp 1600w"
+             sizes="(min-width: 900px) 46vw, 90vw" width="800" height="533" loading="lazy"
+             alt="Vista noturna de Vitória com a Terceira Ponte iluminada e refletida na baía">
+      </figure>
+    </div>
+  </section>
+
+  <!-- 6. Dúvidas -->
+  <section class="faq" id="duvidas" aria-labelledby="h-faq">
+    <h2 id="h-faq" class="h2 reveal">Dúvidas frequentes</h2>
+    <div class="faq__list">
+      <details class="card card--1" open>
+        <summary><span class="card__tab">Conforto</span><span class="card__q">Implante dói?</span></summary>
+        <p>O procedimento é feito com anestesia. O desconforto depois varia de caso para caso e o dentista orienta o pós-operatório.</p>
+      </details>
+      <details class="card card--2">
+        <summary><span class="card__tab">Prazo</span><span class="card__q">Quanto tempo leva?</span></summary>
+        <p>Depende do seu caso. Na avaliação definimos o plano e os prazos de cada etapa.</p>
+      </details>
+      <details class="card card--3">
+        <summary><span class="card__tab">Indicação</span><span class="card__q">Todo mundo pode fazer?</span></summary>
+        <p>É preciso avaliar a saúde geral e a condição óssea. Por isso começamos sempre pela avaliação.</p>
+      </details>
+      <details class="card card--4">
+        <summary><span class="card__tab">Valores</span><span class="card__q">Quanto custa?</span></summary>
+        <p>O valor depende do plano de tratamento do seu caso. Fale com a gente pelo WhatsApp.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- 7. Contato (a peça "destacável") -->
+  <section class="contato" id="contato" aria-labelledby="h-contato">
+    <div class="coupon reveal">
+      <div class="coupon__intro">
+        <h2 id="h-contato" class="coupon__title">Marque sua consulta</h2>
+        <p>Pelo WhatsApp, a qualquer hora. Escolha o que procura e abrimos a conversa já com a sua mensagem pronta.</p>
+      </div>
+      <form class="coupon__form" id="wa-form" action="{{wa:contato}}" method="get">
+        <label class="sr" for="f-interesse">O que você procura</label>
+        <select id="f-interesse" name="interesse">
+          <option value="implante">Implante dentário</option>
+          <option value="protese">Prótese</option>
+          <option value="estetica">Estética dental</option>
+          <option value="cirurgia">Cirurgia (como siso)</option>
+          <option value="geral">Consulta e exames</option>
+        </select>
+        <label class="sr" for="f-quando">Quando prefere</label>
+        <select id="f-quando" name="quando">
+          <option value="o quanto antes">O quanto antes</option>
+          <option value="nesta semana">Nesta semana</option>
+          <option value="ainda estou pesquisando">Ainda estou pesquisando</option>
+        </select>
+        <a class="btn btn--block" id="wa-go" href="{{wa:contato}}" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot__card">
+    <div class="foot__msg">
+      <p class="foot__sign">Será um prazer receber você.</p>
+      <p>Atendimento pelo WhatsApp, 24 horas. Reabilitando sorrisos em Vitória.</p>
+    </div>
+    <address class="foot__addr">
+      <a href="{{wa:rodape}}" target="_blank" rel="noopener">WhatsApp: (27) 99899-5913</a>
+      <a href="https://www.instagram.com/dentalclinvitoria" target="_blank" rel="noopener">@dentalclinvitoria</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Jos%C3%A9+Alexandre+Buaiz%2C+190%2C+Vit%C3%B3ria+ES" target="_blank" rel="noopener">Rua José Alexandre Buaiz, 190, sala 714<br>Enseada do Suá, Vitória, ES, 29050-545</a>
+    </address>
+    <img class="foot__logo" src="/static/img/logo.webp" alt="DentalClin, reabilitação oral e estética" width="900" height="482" loading="lazy">
+  </div>
+  <p class="foot__credits">
+    © 2026 DentalClin · EPAO 2902/ES · Este site não coleta dados pessoais.<br>
+    Fotos de Vitória (Wikimedia Commons): <a href="https://commons.wikimedia.org/wiki/File:VitorJubini_TerceiraPonte_Vitoria_ES_(27121005458).jpg" rel="noopener">Vitor Jubini/MTur</a> (domínio público); <a href="https://commons.wikimedia.org/wiki/File:Terceira_Ponte,_Vit%C3%B3ria_-_ES_(6774178680).jpg" rel="noopener">Francisco Schneider Junior</a>, <a href="https://creativecommons.org/licenses/by/2.0" rel="noopener">CC BY 2.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Praia_de_Camburi_-_Vit%C3%B3ria-ES_-_panoramio_(105).jpg" rel="noopener">Vilamir Azevedo</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="noopener">CC BY-SA 3.0</a> (recortada).
+  </p>
+</footer>
+
+
+</body>
+</html>
