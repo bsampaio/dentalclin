@@ -6,5 +6,5 @@ __pycache__/
 frozen.txt
 *.tar
 .taste-skill/
-dentalclin-original.html
+reference/
 assets/*.jpg
